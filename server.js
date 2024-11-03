@@ -6,4 +6,5 @@ const app = express();
 
 app.use(bodyParser.json());
 
+
 app.listen(3000, 'server listning in localhost port 3000');
