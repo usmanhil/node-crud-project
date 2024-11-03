@@ -5,6 +5,8 @@ const session = require('express-session');
 const app = express();
 
 app.use(bodyParser.json());
-app.use();
+app.use('/login', (req, res) => {
+    console.log('login page');
+});
 
 app.listen(3000, 'server listning in localhost port 3000');
